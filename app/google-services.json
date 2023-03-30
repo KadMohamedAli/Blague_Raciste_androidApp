@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "338450224976",
+    "project_id": "blague-raciste",
+    "storage_bucket": "blague-raciste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338450224976:android:2811e2587bb22a60a47e55",
+        "android_client_info": {
+          "package_name": "alooo.prog.blagueraciste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338450224976-u94f08ctufjfs6ulq7f4uh31u9nvo3ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8Eydg-oJEmeHYBvYLDurgCZwfTHnZHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338450224976-u94f08ctufjfs6ulq7f4uh31u9nvo3ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

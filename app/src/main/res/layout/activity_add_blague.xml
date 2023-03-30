@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddBlague">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Categorie"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerCategorie"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:visibility="visible"
+        android:spinnerMode="dropdown"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView2"
+        app:layout_constraintTop_toTopOf="@id/textView2" />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spinnerCategorie"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextAddBlague1"
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/buttonPlusEtMoins"
+        app:layout_constraintTop_toBottomOf="@id/editTextAddBlague1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:text="+"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="@id/editTextAddBlague1"
+        app:layout_constraintEnd_toEndOf="@id/editTextAddBlague1"
+        app:layout_constraintTop_toBottomOf="@id/buttonPlusEtMoins"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextAddBlague2"
+        android:enabled="false"
+        android:visibility="invisible"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/submitButton"
+        app:layout_constraintTop_toBottomOf="@id/editTextAddBlague2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Submit"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
